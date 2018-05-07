@@ -15,5 +15,6 @@ A simple jumpable view
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
   s.source_files = 'JSSideBar/*.swift'
- 
+
+  s.dependency 'JSRotatingView'  
 end
