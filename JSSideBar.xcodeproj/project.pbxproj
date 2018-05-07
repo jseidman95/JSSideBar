@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3142AFDB43ECC8E960302A18 /* Pods_JSSideBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D859792F6FEA0D6AFB0119D4 /* Pods_JSSideBarUITests.framework */; };
 		420C36FF20A0FC1D001C117F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C36FE20A0FC1D001C117F /* AppDelegate.swift */; };
 		420C370120A0FC1D001C117F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C370020A0FC1D001C117F /* ViewController.swift */; };
 		420C370420A0FC1D001C117F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420C370220A0FC1D001C117F /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 		420C373120A0FC29001C117F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C372D20A0FC29001C117F /* TableViewController.swift */; };
 		420C373220A0FC29001C117F /* SensitiveScrollRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C372E20A0FC29001C117F /* SensitiveScrollRecognizer.swift */; };
 		420C373320A0FC29001C117F /* JSSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C372F20A0FC29001C117F /* JSSidebar.swift */; };
+		578A83113F0A07A9B11B27E1 /* Pods_JSSideBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A25A6BF708FF2380E1991C /* Pods_JSSideBar.framework */; };
+		DE22E1D8311EE7F43C7BFFF5 /* Pods_JSSideBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E4AA8774F1D0DEDE8E9B29 /* Pods_JSSideBarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2765C845808EA4CF11006DA4 /* Pods-JSSideBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideBarUITests/Pods-JSSideBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29E4AA8774F1D0DEDE8E9B29 /* Pods_JSSideBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSideBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A25A6BF708FF2380E1991C /* Pods_JSSideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSideBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C36FB20A0FC1D001C117F /* JSSideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSSideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420C36FE20A0FC1D001C117F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		420C370020A0FC1D001C117F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +61,12 @@
 		420C372D20A0FC29001C117F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		420C372E20A0FC29001C117F /* SensitiveScrollRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitiveScrollRecognizer.swift; sourceTree = "<group>"; };
 		420C372F20A0FC29001C117F /* JSSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSSidebar.swift; sourceTree = "<group>"; };
+		A7A0922EB4C29BD369808C61 /* Pods-JSSideBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideBarTests/Pods-JSSideBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3880A7B5AEDD0C91EC6C917 /* Pods-JSSideBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideBar/Pods-JSSideBar.release.xcconfig"; sourceTree = "<group>"; };
+		C7C8FCCE64816F8B0E6B9576 /* Pods-JSSideBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideBarTests/Pods-JSSideBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		D859792F6FEA0D6AFB0119D4 /* Pods_JSSideBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSideBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC33EBE8FF2917C33C53F21B /* Pods-JSSideBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideBar/Pods-JSSideBar.debug.xcconfig"; sourceTree = "<group>"; };
+		E42BF4E55D94C88597C905BA /* Pods-JSSideBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideBarUITests/Pods-JSSideBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578A83113F0A07A9B11B27E1 /* Pods_JSSideBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE22E1D8311EE7F43C7BFFF5 /* Pods_JSSideBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3142AFDB43ECC8E960302A18 /* Pods_JSSideBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,8 @@
 				420C371220A0FC21001C117F /* JSSideBarTests */,
 				420C371D20A0FC21001C117F /* JSSideBarUITests */,
 				420C36FC20A0FC1D001C117F /* Products */,
+				D79ED0873B14AF1C1A6B0ED2 /* Pods */,
+				AD3788229462B19041C29BB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +154,29 @@
 			path = JSSideBarUITests;
 			sourceTree = "<group>";
 		};
+		AD3788229462B19041C29BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A25A6BF708FF2380E1991C /* Pods_JSSideBar.framework */,
+				29E4AA8774F1D0DEDE8E9B29 /* Pods_JSSideBarTests.framework */,
+				D859792F6FEA0D6AFB0119D4 /* Pods_JSSideBarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79ED0873B14AF1C1A6B0ED2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC33EBE8FF2917C33C53F21B /* Pods-JSSideBar.debug.xcconfig */,
+				C3880A7B5AEDD0C91EC6C917 /* Pods-JSSideBar.release.xcconfig */,
+				A7A0922EB4C29BD369808C61 /* Pods-JSSideBarTests.debug.xcconfig */,
+				C7C8FCCE64816F8B0E6B9576 /* Pods-JSSideBarTests.release.xcconfig */,
+				E42BF4E55D94C88597C905BA /* Pods-JSSideBarUITests.debug.xcconfig */,
+				2765C845808EA4CF11006DA4 /* Pods-JSSideBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 420C372320A0FC21001C117F /* Build configuration list for PBXNativeTarget "JSSideBar" */;
 			buildPhases = (
+				4D0D5C389927F37A3C9AD667 /* [CP] Check Pods Manifest.lock */,
 				420C36F720A0FC1D001C117F /* Sources */,
 				420C36F820A0FC1D001C117F /* Frameworks */,
 				420C36F920A0FC1D001C117F /* Resources */,
+				BC8CA4D1931861FF1DC0A9DB /* [CP] Embed Pods Frameworks */,
+				7C694A7D2B5E6C214177C121 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 420C372620A0FC21001C117F /* Build configuration list for PBXNativeTarget "JSSideBarTests" */;
 			buildPhases = (
+				44A64439ACAF322C422553C7 /* [CP] Check Pods Manifest.lock */,
 				420C370B20A0FC21001C117F /* Sources */,
 				420C370C20A0FC21001C117F /* Frameworks */,
 				420C370D20A0FC21001C117F /* Resources */,
+				EF823ACC5EE62410242AC3AE /* [CP] Embed Pods Frameworks */,
+				E0B44C521B435AEF0F1DFE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 420C372920A0FC21001C117F /* Build configuration list for PBXNativeTarget "JSSideBarUITests" */;
 			buildPhases = (
+				2331344D5436E5AEB18C23D9 /* [CP] Check Pods Manifest.lock */,
 				420C371620A0FC21001C117F /* Sources */,
 				420C371720A0FC21001C117F /* Frameworks */,
 				420C371820A0FC21001C117F /* Resources */,
+				5417E08C3CFEA86A288137F1 /* [CP] Embed Pods Frameworks */,
+				9290804C7B743CFD0753CCE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +311,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2331344D5436E5AEB18C23D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSSideBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A64439ACAF322C422553C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSSideBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0D5C389927F37A3C9AD667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSSideBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5417E08C3CFEA86A288137F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBarUITests/Pods-JSSideBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C694A7D2B5E6C214177C121 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBar/Pods-JSSideBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9290804C7B743CFD0753CCE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBarUITests/Pods-JSSideBarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8CA4D1931861FF1DC0A9DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBar/Pods-JSSideBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSRotatingView/JSRotatingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSRotatingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBar/Pods-JSSideBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B44C521B435AEF0F1DFE09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBarTests/Pods-JSSideBarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF823ACC5EE62410242AC3AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideBarTests/Pods-JSSideBarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		420C36F720A0FC1D001C117F /* Sources */ = {
@@ -444,15 +643,13 @@
 		};
 		420C372420A0FC21001C117F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC33EBE8FF2917C33C53F21B /* Pods-JSSideBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = JSSideBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.JSSideBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,15 +659,13 @@
 		};
 		420C372520A0FC21001C117F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3880A7B5AEDD0C91EC6C917 /* Pods-JSSideBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = JSSideBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.JSSideBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -480,17 +675,14 @@
 		};
 		420C372720A0FC21001C117F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A0922EB4C29BD369808C61 /* Pods-JSSideBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = JSSideBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.JSSideBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -501,17 +693,14 @@
 		};
 		420C372820A0FC21001C117F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C8FCCE64816F8B0E6B9576 /* Pods-JSSideBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = JSSideBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.JSSideBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -522,16 +711,13 @@
 		};
 		420C372A20A0FC21001C117F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42BF4E55D94C88597C905BA /* Pods-JSSideBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = JSSideBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.JSSideBarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -542,16 +728,13 @@
 		};
 		420C372B20A0FC21001C117F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2765C845808EA4CF11006DA4 /* Pods-JSSideBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25U77HKX6R;
 				INFOPLIST_FILE = JSSideBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SlideWorm.JSSideBarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
