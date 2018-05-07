@@ -1,0 +1,21 @@
+PODS:
+  - JSRotatingView (0.1.0)
+
+DEPENDENCIES:
+  - JSRotatingView (from `https://github.com/jseidman95/JSRotatingView`)
+
+EXTERNAL SOURCES:
+  JSRotatingView:
+    :git: https://github.com/jseidman95/JSRotatingView
+
+CHECKOUT OPTIONS:
+  JSRotatingView:
+    :commit: b7266b2aaf86906ccea1483766956ab71f125d6a
+    :git: https://github.com/jseidman95/JSRotatingView
+
+SPEC CHECKSUMS:
+  JSRotatingView: 8d4c5820db7db7adc6e1bcf44e5d7b0cc3935316
+
+PODFILE CHECKSUM: bf4125a7555d85d1665e1697756801970261110c
+
+COCOAPODS: 1.4.0

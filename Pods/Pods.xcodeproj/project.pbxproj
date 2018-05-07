@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1227375F77F8E9E774842A52A240EDEE /* Pods-JSSideBarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E002DE3FA14B2410EBC4138A7267B8B /* Pods-JSSideBarUITests-dummy.m */; };
+		55C848625B14CA15BF83421AC0A06E6F /* Pods-JSSideBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16855947225F141D4F4433D3CA78F232 /* Pods-JSSideBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4575151DCF88880BFBE7C2A20FB5BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B938DBE931DD44FF76666297D9FB542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7C64645E22B4D5F782022A435E908195 /* JSRotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AB2B31AF99780C3C837F1A45EF64D /* JSRotatingView.swift */; };
+		8385E190D0A5E59E6448A3854C3C6892 /* Pods-JSSideBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E210DF2BB55AAFB851510F24E83B3D3F /* Pods-JSSideBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9146C5729D40ECD2CD5DC8D68272139C /* JSRotatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE47B36A474ED12C6F507468044728 /* JSRotatingView-dummy.m */; };
+		AAA536FCD789513B6BF67E98F736B0FD /* Pods-JSSideBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0596430E89D6FEC57651028C16D14 /* Pods-JSSideBar-dummy.m */; };
+		ABAED9330A868F16E2D7F42AE8F85F63 /* Pods-JSSideBarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A99071DB04CF592EDAD25FAC8BF001D /* Pods-JSSideBarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D91DBBCF41E360522C767A06CC7858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C3C768744324E5505A9B9363348938E8 /* JSRotatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DD803654D0BAD68E828DCA6F2D07B0 /* JSRotatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE175C81B5198F6544A953D3CDC64E7B /* Pods-JSSideBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BD7CB32A5985C859A2E7A8CFF2FF2 /* Pods-JSSideBarTests-dummy.m */; };
+		FC25AD6BAB17E16742D92602F5BADB7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEF6AF884B0C7C2762EEB5C59FDD2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90803F2B33562CCFB98C2CC03948AC74;
+			remoteInfo = JSRotatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D7032D53EDDB06584803F3C26F69DD /* JSRotatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSRotatingView.modulemap; sourceTree = "<group>"; };
+		0AAC0010C3B46F95BD38BDE222BB4BE7 /* Pods-JSSideBarUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideBarUITests-frameworks.sh"; sourceTree = "<group>"; };
+		10A009BD87FFE786D7768A490B6CBA0E /* Pods-JSSideBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideBar.debug.xcconfig"; sourceTree = "<group>"; };
+		16855947225F141D4F4433D3CA78F232 /* Pods-JSSideBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSideBarTests-umbrella.h"; sourceTree = "<group>"; };
+		1EE784B6218BB41FD26DF6425621D852 /* Pods-JSSideBarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSideBarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22C81C01172817C220F2802BB061A9D4 /* Pods-JSSideBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AB538091F966248399131EB5A7103CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340BD7CB32A5985C859A2E7A8CFF2FF2 /* Pods-JSSideBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSideBarTests-dummy.m"; sourceTree = "<group>"; };
+		38B9E9B458D96D0B91A45D857343A8E2 /* Pods-JSSideBarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSideBarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43CC5488A43CA0CE4F04055358CD4E82 /* Pods-JSSideBarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideBarTests-resources.sh"; sourceTree = "<group>"; };
+		4EEF6F89CD2BA8BD1B82AADBEE237AA4 /* Pods-JSSideBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FA1F9D9579EE1476D8FA91C912AF956 /* JSRotatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSRotatingView.framework; path = JSRotatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		573FE461F5B89FDF24EBE8F0AC9CD057 /* JSRotatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSRotatingView-prefix.pch"; sourceTree = "<group>"; };
+		57DD803654D0BAD68E828DCA6F2D07B0 /* JSRotatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSRotatingView-umbrella.h"; sourceTree = "<group>"; };
+		58E0596430E89D6FEC57651028C16D14 /* Pods-JSSideBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSideBar-dummy.m"; sourceTree = "<group>"; };
+		648B359735A824CF67A55FA0DB7478E4 /* JSRotatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSRotatingView.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		693CD3B01E210B317D11FA46FA76000F /* Pods_JSSideBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSSideBarUITests.framework; path = "Pods-JSSideBarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D0F9F5FAEF04B9805B714B25F50BC6 /* Pods-JSSideBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSSideBarTests.modulemap"; sourceTree = "<group>"; };
+		7A99071DB04CF592EDAD25FAC8BF001D /* Pods-JSSideBarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSideBarUITests-umbrella.h"; sourceTree = "<group>"; };
+		8B57D9DBD5F09AD92A6F3024663773BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E22E0B12C982E13B37DF69D6084BE49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDEB7D18654715130B4B145687FA143 /* Pods-JSSideBarUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideBarUITests-resources.sh"; sourceTree = "<group>"; };
+		8F1AB2B31AF99780C3C837F1A45EF64D /* JSRotatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSRotatingView.swift; path = JSRotatingView/JSRotatingView.swift; sourceTree = "<group>"; };
+		91C497B693C14FF3986D918EFB657294 /* Pods-JSSideBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSideBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE9D17B59CCA433B4F23E52D4785E1C /* Pods-JSSideBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C40C03E5B0D1DF66480FDC5E0BD8176 /* Pods-JSSideBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSideBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E002DE3FA14B2410EBC4138A7267B8B /* Pods-JSSideBarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSideBarUITests-dummy.m"; sourceTree = "<group>"; };
+		9FFD34E51D90B9B053F1921F414EA5BB /* Pods-JSSideBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9FE47B36A474ED12C6F507468044728 /* JSRotatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSRotatingView-dummy.m"; sourceTree = "<group>"; };
+		B10F89B8B3FD65F1CBEA05564DF08537 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17691644CCB5F14B5021070C85F0113 /* Pods-JSSideBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSSideBar.modulemap"; sourceTree = "<group>"; };
+		B2C2FC2970EA501D6B6A447E3F77BFBE /* Pods-JSSideBarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSSideBarUITests.modulemap"; sourceTree = "<group>"; };
+		BBE107D2AF33971E0A2AFDFF0EBE1B45 /* Pods-JSSideBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSideBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC313E220CA6D9BC5780F1EF9EA32F8E /* Pods-JSSideBarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideBarTests-frameworks.sh"; sourceTree = "<group>"; };
+		D5819FB541684F0ECDB02DC492F278DC /* Pods-JSSideBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideBar.release.xcconfig"; sourceTree = "<group>"; };
+		E210DF2BB55AAFB851510F24E83B3D3F /* Pods-JSSideBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSideBar-umbrella.h"; sourceTree = "<group>"; };
+		EBAA0DAFB936B1EBBE448B9634B3387B /* Pods-JSSideBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideBar-resources.sh"; sourceTree = "<group>"; };
+		EC315673A760BC47AC0439A24D22FC32 /* Pods-JSSideBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSideBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5B6A6AAD804EBC52BF797F2E317C915 /* Pods-JSSideBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideBar-frameworks.sh"; sourceTree = "<group>"; };
+		F70D853AC1968082536645BE8570F49F /* Pods_JSSideBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSSideBarTests.framework; path = "Pods-JSSideBarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB6580B653BBF98FE7F4E18B7C4037F /* Pods_JSSideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSSideBar.framework; path = "Pods-JSSideBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3195E8F14E56859B15E7E328AE47853B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC25AD6BAB17E16742D92602F5BADB7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BFCB8CCCF937F1E50823F0346E72E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B938DBE931DD44FF76666297D9FB542 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C95D929DCEBC9D0DAC550CA69CD0A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D91DBBCF41E360522C767A06CC7858 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B328EA5E822BE379C1DF97C53EAC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4575151DCF88880BFBE7C2A20FB5BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8BF797672DD321E7736C028F4688EF /* Pods-JSSideBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E22E0B12C982E13B37DF69D6084BE49 /* Info.plist */,
+				73D0F9F5FAEF04B9805B714B25F50BC6 /* Pods-JSSideBarTests.modulemap */,
+				EC315673A760BC47AC0439A24D22FC32 /* Pods-JSSideBarTests-acknowledgements.markdown */,
+				BBE107D2AF33971E0A2AFDFF0EBE1B45 /* Pods-JSSideBarTests-acknowledgements.plist */,
+				340BD7CB32A5985C859A2E7A8CFF2FF2 /* Pods-JSSideBarTests-dummy.m */,
+				CC313E220CA6D9BC5780F1EF9EA32F8E /* Pods-JSSideBarTests-frameworks.sh */,
+				43CC5488A43CA0CE4F04055358CD4E82 /* Pods-JSSideBarTests-resources.sh */,
+				16855947225F141D4F4433D3CA78F232 /* Pods-JSSideBarTests-umbrella.h */,
+				9BE9D17B59CCA433B4F23E52D4785E1C /* Pods-JSSideBarTests.debug.xcconfig */,
+				4EEF6F89CD2BA8BD1B82AADBEE237AA4 /* Pods-JSSideBarTests.release.xcconfig */,
+			);
+			name = "Pods-JSSideBarTests";
+			path = "Target Support Files/Pods-JSSideBarTests";
+			sourceTree = "<group>";
+		};
+		1DF91C11606174937082C49C97AF7AD6 /* Pods-JSSideBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB538091F966248399131EB5A7103CF /* Info.plist */,
+				B2C2FC2970EA501D6B6A447E3F77BFBE /* Pods-JSSideBarUITests.modulemap */,
+				1EE784B6218BB41FD26DF6425621D852 /* Pods-JSSideBarUITests-acknowledgements.markdown */,
+				38B9E9B458D96D0B91A45D857343A8E2 /* Pods-JSSideBarUITests-acknowledgements.plist */,
+				9E002DE3FA14B2410EBC4138A7267B8B /* Pods-JSSideBarUITests-dummy.m */,
+				0AAC0010C3B46F95BD38BDE222BB4BE7 /* Pods-JSSideBarUITests-frameworks.sh */,
+				8EDEB7D18654715130B4B145687FA143 /* Pods-JSSideBarUITests-resources.sh */,
+				7A99071DB04CF592EDAD25FAC8BF001D /* Pods-JSSideBarUITests-umbrella.h */,
+				9FFD34E51D90B9B053F1921F414EA5BB /* Pods-JSSideBarUITests.debug.xcconfig */,
+				22C81C01172817C220F2802BB061A9D4 /* Pods-JSSideBarUITests.release.xcconfig */,
+			);
+			name = "Pods-JSSideBarUITests";
+			path = "Target Support Files/Pods-JSSideBarUITests";
+			sourceTree = "<group>";
+		};
+		2944FA42E00FD5A92CFDF82E9E67817C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B57D9DBD5F09AD92A6F3024663773BA /* Info.plist */,
+				02D7032D53EDDB06584803F3C26F69DD /* JSRotatingView.modulemap */,
+				648B359735A824CF67A55FA0DB7478E4 /* JSRotatingView.xcconfig */,
+				A9FE47B36A474ED12C6F507468044728 /* JSRotatingView-dummy.m */,
+				573FE461F5B89FDF24EBE8F0AC9CD057 /* JSRotatingView-prefix.pch */,
+				57DD803654D0BAD68E828DCA6F2D07B0 /* JSRotatingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSRotatingView";
+			sourceTree = "<group>";
+		};
+		46EC49F17E2AB17A0A3899CA869E5F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA1F9D9579EE1476D8FA91C912AF956 /* JSRotatingView.framework */,
+				FCB6580B653BBF98FE7F4E18B7C4037F /* Pods_JSSideBar.framework */,
+				F70D853AC1968082536645BE8570F49F /* Pods_JSSideBarTests.framework */,
+				693CD3B01E210B317D11FA46FA76000F /* Pods_JSSideBarUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B37F9B7D5F74A81C4B6091B5049EEDB /* JSRotatingView */ = {
+			isa = PBXGroup;
+			children = (
+				8F1AB2B31AF99780C3C837F1A45EF64D /* JSRotatingView.swift */,
+				2944FA42E00FD5A92CFDF82E9E67817C /* Support Files */,
+			);
+			name = JSRotatingView;
+			path = JSRotatingView;
+			sourceTree = "<group>";
+		};
+		4BE9A2E23BA17A6970D71FAEDC084894 /* Pods-JSSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				B10F89B8B3FD65F1CBEA05564DF08537 /* Info.plist */,
+				B17691644CCB5F14B5021070C85F0113 /* Pods-JSSideBar.modulemap */,
+				91C497B693C14FF3986D918EFB657294 /* Pods-JSSideBar-acknowledgements.markdown */,
+				9C40C03E5B0D1DF66480FDC5E0BD8176 /* Pods-JSSideBar-acknowledgements.plist */,
+				58E0596430E89D6FEC57651028C16D14 /* Pods-JSSideBar-dummy.m */,
+				F5B6A6AAD804EBC52BF797F2E317C915 /* Pods-JSSideBar-frameworks.sh */,
+				EBAA0DAFB936B1EBBE448B9634B3387B /* Pods-JSSideBar-resources.sh */,
+				E210DF2BB55AAFB851510F24E83B3D3F /* Pods-JSSideBar-umbrella.h */,
+				10A009BD87FFE786D7768A490B6CBA0E /* Pods-JSSideBar.debug.xcconfig */,
+				D5819FB541684F0ECDB02DC492F278DC /* Pods-JSSideBar.release.xcconfig */,
+			);
+			name = "Pods-JSSideBar";
+			path = "Target Support Files/Pods-JSSideBar";
+			sourceTree = "<group>";
+		};
+		7B4F8024F483D36850E50448513F62D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B37F9B7D5F74A81C4B6091B5049EEDB /* JSRotatingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7B4F8024F483D36850E50448513F62D2 /* Pods */,
+				46EC49F17E2AB17A0A3899CA869E5F11 /* Products */,
+				F191CE7EC350D1DA1616F0BD437CBEA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F191CE7EC350D1DA1616F0BD437CBEA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9A2E23BA17A6970D71FAEDC084894 /* Pods-JSSideBar */,
+				0F8BF797672DD321E7736C028F4688EF /* Pods-JSSideBarTests */,
+				1DF91C11606174937082C49C97AF7AD6 /* Pods-JSSideBarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19299AA1B7970B03F494A2AE06D1ED2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C848625B14CA15BF83421AC0A06E6F /* Pods-JSSideBarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773E127623022BCC2C419E51E601C357 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAED9330A868F16E2D7F42AE8F85F63 /* Pods-JSSideBarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB1067375E039E7B4B8A8CED20D8108 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C768744324E5505A9B9363348938E8 /* JSRotatingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C66EF30FA7B23F0CB9E652D53B6D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8385E190D0A5E59E6448A3854C3C6892 /* Pods-JSSideBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B5AAC92BB393C138F80A8EFA6986049 /* Pods-JSSideBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F26900C902ED505DFF2A4D408691CC /* Build configuration list for PBXNativeTarget "Pods-JSSideBarUITests" */;
+			buildPhases = (
+				E4D6EF3E2A8BBFA34F8348575221AD4E /* Sources */,
+				6BFCB8CCCF937F1E50823F0346E72E84 /* Frameworks */,
+				773E127623022BCC2C419E51E601C357 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSSideBarUITests";
+			productName = "Pods-JSSideBarUITests";
+			productReference = 693CD3B01E210B317D11FA46FA76000F /* Pods_JSSideBarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		393E900455502A8B0558396F1DC22D5B /* Pods-JSSideBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5B0517B07E9B22965F34621477FB30 /* Build configuration list for PBXNativeTarget "Pods-JSSideBar" */;
+			buildPhases = (
+				FE378464B297549FD15D09ED10D6E0F2 /* Sources */,
+				80B328EA5E822BE379C1DF97C53EAC72 /* Frameworks */,
+				A3C66EF30FA7B23F0CB9E652D53B6D15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E30723602278B92795C204FB4B9C7CBF /* PBXTargetDependency */,
+			);
+			name = "Pods-JSSideBar";
+			productName = "Pods-JSSideBar";
+			productReference = FCB6580B653BBF98FE7F4E18B7C4037F /* Pods_JSSideBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		869ABAB6424DDFEFC09AA088B0C527AD /* Pods-JSSideBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB32AF0B8E95167CD4A3662A5CBC807 /* Build configuration list for PBXNativeTarget "Pods-JSSideBarTests" */;
+			buildPhases = (
+				2B911C8A22A01DB4A559051EE31A5CD0 /* Sources */,
+				6C95D929DCEBC9D0DAC550CA69CD0A4F /* Frameworks */,
+				19299AA1B7970B03F494A2AE06D1ED2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSSideBarTests";
+			productName = "Pods-JSSideBarTests";
+			productReference = F70D853AC1968082536645BE8570F49F /* Pods_JSSideBarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90803F2B33562CCFB98C2CC03948AC74 /* JSRotatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD02F3F7507AA1F086F181FCEE516EC7 /* Build configuration list for PBXNativeTarget "JSRotatingView" */;
+			buildPhases = (
+				92F68B2AB7E1CD3665336C3A12222F27 /* Sources */,
+				3195E8F14E56859B15E7E328AE47853B /* Frameworks */,
+				8DB1067375E039E7B4B8A8CED20D8108 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSRotatingView;
+			productName = JSRotatingView;
+			productReference = 4FA1F9D9579EE1476D8FA91C912AF956 /* JSRotatingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46EC49F17E2AB17A0A3899CA869E5F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90803F2B33562CCFB98C2CC03948AC74 /* JSRotatingView */,
+				393E900455502A8B0558396F1DC22D5B /* Pods-JSSideBar */,
+				869ABAB6424DDFEFC09AA088B0C527AD /* Pods-JSSideBarTests */,
+				1B5AAC92BB393C138F80A8EFA6986049 /* Pods-JSSideBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B911C8A22A01DB4A559051EE31A5CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE175C81B5198F6544A953D3CDC64E7B /* Pods-JSSideBarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F68B2AB7E1CD3665336C3A12222F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146C5729D40ECD2CD5DC8D68272139C /* JSRotatingView-dummy.m in Sources */,
+				7C64645E22B4D5F782022A435E908195 /* JSRotatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6EF3E2A8BBFA34F8348575221AD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1227375F77F8E9E774842A52A240EDEE /* Pods-JSSideBarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE378464B297549FD15D09ED10D6E0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA536FCD789513B6BF67E98F736B0FD /* Pods-JSSideBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E30723602278B92795C204FB4B9C7CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSRotatingView;
+			target = 90803F2B33562CCFB98C2CC03948AC74 /* JSRotatingView */;
+			targetProxy = EFEF6AF884B0C7C2762EEB5C59FDD2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE4CE0BFD374ABB63C5136F18D11ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5819FB541684F0ECDB02DC492F278DC /* Pods-JSSideBar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideBar/Pods-JSSideBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23F6F89EB0E29B875AFB1EEC6CB76FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648B359735A824CF67A55FA0DB7478E4 /* JSRotatingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSRotatingView/JSRotatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSRotatingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSRotatingView/JSRotatingView.modulemap";
+				PRODUCT_NAME = JSRotatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		874E1B397440F3CD5999220A93123F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A009BD87FFE786D7768A490B6CBA0E /* Pods-JSSideBar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideBar/Pods-JSSideBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		969B13C0F6F07882FA5A61CECD9C54B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648B359735A824CF67A55FA0DB7478E4 /* JSRotatingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSRotatingView/JSRotatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSRotatingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSRotatingView/JSRotatingView.modulemap";
+				PRODUCT_NAME = JSRotatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99093D869FB7D33E820FEFA3140D60D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFD34E51D90B9B053F1921F414EA5BB /* Pods-JSSideBarUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideBarUITests/Pods-JSSideBarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideBarUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E69D55D1A9573D128EEF106E4FFE4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEF6F89CD2BA8BD1B82AADBEE237AA4 /* Pods-JSSideBarTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideBarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideBarTests/Pods-JSSideBarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideBarTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D40C4970FC2EC9C7A2BF55766236316E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE9D17B59CCA433B4F23E52D4785E1C /* Pods-JSSideBarTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideBarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideBarTests/Pods-JSSideBarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideBarTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE02F79F4AB806AAF296492739A32FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C81C01172817C220F2802BB061A9D4 /* Pods-JSSideBarUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideBarUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideBarUITests/Pods-JSSideBarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideBarUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F26900C902ED505DFF2A4D408691CC /* Build configuration list for PBXNativeTarget "Pods-JSSideBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99093D869FB7D33E820FEFA3140D60D6 /* Debug */,
+				DE02F79F4AB806AAF296492739A32FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5B0517B07E9B22965F34621477FB30 /* Build configuration list for PBXNativeTarget "Pods-JSSideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E1B397440F3CD5999220A93123F8A /* Debug */,
+				0DE4CE0BFD374ABB63C5136F18D11ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB32AF0B8E95167CD4A3662A5CBC807 /* Build configuration list for PBXNativeTarget "Pods-JSSideBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40C4970FC2EC9C7A2BF55766236316E /* Debug */,
+				9E69D55D1A9573D128EEF106E4FFE4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD02F3F7507AA1F086F181FCEE516EC7 /* Build configuration list for PBXNativeTarget "JSRotatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F6F89EB0E29B875AFB1EEC6CB76FE9 /* Debug */,
+				969B13C0F6F07882FA5A61CECD9C54B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
